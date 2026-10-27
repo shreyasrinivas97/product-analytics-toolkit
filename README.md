@@ -77,8 +77,6 @@ product-analytics-toolkit/
 └── README.md
 ```
 
-*Update this structure if your uploaded repository uses different filenames or folders.*
-
 ## 7. How to Run
 
 ### Prerequisites
