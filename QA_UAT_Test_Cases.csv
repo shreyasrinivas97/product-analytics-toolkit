@@ -1,0 +1,13 @@
+test_id,area,precondition_or_action,expected_result,test_type,priority,status
+QA-01,Onboarding,Eligible new user opens home,Checklist appears with correct steps,Functional,High,Not Run
+QA-02,Onboarding,Returning user with completed checklist opens home,Checklist remains completed or hidden per spec,Regression,High,Not Run
+QA-03,Onboarding,User completes one checklist step,Progress and step state update,Functional,High,Not Run
+QA-04,Onboarding,User dismisses checklist and reloads,Dismissal persists,Functional,Medium,Not Run
+QA-05,Search,Apply one filter,Results and active-filter chip update,Functional,High,Not Run
+QA-06,Search,Apply two supported filters,Results satisfy both filters,Functional,High,Not Run
+QA-07,Search,Select Clear all,All filters reset and results refresh,Functional,High,Not Run
+QA-08,Search,Filters return zero results,Helpful empty state and recovery action appear,Usability,Medium,Not Run
+QA-09,Analytics,Complete checklist step in staging,Expected event is emitted once with valid fields,Analytics,High,Not Run
+QA-10,Analytics,Inspect analytics event payload,No raw personal data is included,Privacy,High,Not Run
+QA-11,Performance,Apply filters on a large result set,Latency stays within agreed performance budget,Performance,High,Not Run
+QA-12,Accessibility,Navigate checklist and filters with keyboard,Focus order and visible focus are correct,Accessibility,High,Not Run
