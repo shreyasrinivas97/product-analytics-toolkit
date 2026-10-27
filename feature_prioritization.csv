@@ -1,0 +1,6 @@
+feature,user_impact_1_to_5,business_impact_1_to_5,confidence_1_to_5,effort_1_to_5,evidence,priority_score
+Guided onboarding,5,4,5,3,High friction among new users; supports activation,33.333333333333336
+Advanced search filters,4,5,4,4,Repeated search requests; improves findability,20.0
+Faster load times,5,5,4,5,High negative sentiment; technical investigation needed,20.0
+Saved items,3,4,3,2,Useful for repeat visits; validate demand first,18.0
+Notification controls,3,3,3,3,Preference requests; lower urgency than core journey,9.0
